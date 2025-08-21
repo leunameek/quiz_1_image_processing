@@ -133,5 +133,3 @@ plt.xlabel("Intervalo")
 plt.ylabel("Frecuencia")
 plt.title("Histograma por intervalos de color (Equalizada)")
 plt.show()
-
-cv2.imwrite('imagen_arreglada.png', equalized_img)
