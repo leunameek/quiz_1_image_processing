@@ -95,8 +95,8 @@ print("Imagen rotada y escalada:", rotated_scaled.shape)
 
 x = 0
 y = 426
-width = 1807
-height = 1360
+width = 1920
+height = 1356
 roi = rotated_scaled[y:y+height, x:x+width].copy()
 
 scale_y = 0.9975
